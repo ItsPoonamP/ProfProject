@@ -1,0 +1,59 @@
+/* General styles */
+* {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.navbar, .dropdown {
+  display: flex;
+  background-color: #1F293A;
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar a, .dropdown a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 0 10px;
+}
+
+.navbar {
+  justify-content: space-around;
+}
+
+.dropdown {
+  flex-direction: column;
+
+  display: none;
+}
+.dropdown a 
+{
+  padding: 1rem;
+}
+
+.dropdown.open {
+  display: flex;
+  
+}
+
+
+.menu-toggle {
+  display: none;
+  background-color: #1F293A;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
