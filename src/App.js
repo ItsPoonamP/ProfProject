@@ -22,7 +22,14 @@ function App() {
    </div>
    <div className="sponsor">
     <div className="blueLine"></div>
-    <div className="text"></div>
+    <div className="textS"><p>SPONSORS</p></div>
+    <div className="blueLine"></div>
+   </div>
+   <div className="logo"></div>
+   <div className="logo"></div>
+   <div className="speaker">
+    <div className="blueLine"></div>
+    <div className="textSP"><p>SPEAKER</p></div>
     <div className="blueLine"></div>
    </div>
    </>

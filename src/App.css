@@ -167,5 +167,50 @@ clip-path: polygon(0% 0%,10% 100%,100% 100%,100% 0%);
 .sponsor
 {
   display: flex;
+  justify-content: center;
   
+  
+}
+.blueLine{
+  background-color: #0093DD;
+  width: 40%;
+  height: 0.1rem;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.textS
+{
+  background-color: #1F293A;
+  height: 2rem;
+  width: 8rem;
+  margin-top: 1.5rem;
+  border: #1F293A;
+  border-radius: 10px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+.textS p
+{
+  margin-top: 0.5rem;
+}
+.speaker
+{
+  display: flex;
+  justify-content: center;
+
+}
+.textSP
+{ background-color: #1F293A;
+  height: 2rem;
+  width: 8rem;
+  border: #1F293A;
+  border-radius: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.textSP p{
+  margin-top: 0.5rem;
 }
