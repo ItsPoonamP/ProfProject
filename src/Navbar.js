@@ -13,6 +13,7 @@ export default function Navbar() {
       <div className="menu-toggle" onClick={handleToggle}>
         <i className="fa-solid fa-bars"></i> 
       </div>
+      
       <ul className="navbar">
          <a href="#">Speakers</a> 
          <a href="#">Committee</a> 
