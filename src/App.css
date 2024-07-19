@@ -121,6 +121,7 @@ header
 height: 17.3rem;
 background-color: #FFFFFF;
 position: absolute;
+top: 2.75rem;
 right: 0px;
 clip-path: polygon(0% 0%,10% 100%,100% 100%,100% 0%);
 }
