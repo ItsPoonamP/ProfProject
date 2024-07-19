@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from '../Navbar'
+
 import './Registration.css'
 
 export default function Registration() {
   return (
     <div>
-         <Navbar/> 
         <div className='header'> 
         
             <h1>Registration</h1>
