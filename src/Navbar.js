@@ -20,7 +20,7 @@ export default function Navbar() {
          <a href="#">Programme</a> 
          <a href="#">Theme</a> 
          <a href="#">Registration</a> 
-         <a href="#">Contact</a> 
+        
       </ul>
       <ul className={`dropdown ${showMenu ? 'open' : ''}`}>
          <a href="#">Speakers</a> 
@@ -28,7 +28,7 @@ export default function Navbar() {
          <a href="#">Programme</a> 
          <a href="#">Theme</a> 
          <a href="#">Registration</a> 
-         <a href="#">Contact</a> 
+         
       </ul>
     </>
   );

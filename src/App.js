@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import DateSec from './DateSec';
+import Image from './Image';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
     <div className="textSP"><p>SPEAKER</p></div>
     <div className="blueLine"></div>
    </div>
+   <Image/>
+   <Contact/>
    </>
   );
 }
