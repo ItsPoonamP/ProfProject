@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import DateSec from './DateSec';
 import SpeakerList from './speakers/speakerList';
+import Theme from './Themes/theme';
 
 function App() {
   return (
