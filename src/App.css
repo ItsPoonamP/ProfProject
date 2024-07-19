@@ -136,6 +136,9 @@ clip-path: polygon(0% 0%,10% 100%,100% 100%,100% 0%);
   font-size: 4vh;
   flex-wrap: wrap;  
 }
+.date p{
+  font-size: 4vh;
+}
 .box
 {
   
@@ -213,6 +216,7 @@ padding-bottom: 1rem;
 }
 .textS p
 {
+  font-size: 2vh;
   margin-top: 0.5rem;
 }
 .speaker
@@ -232,6 +236,7 @@ padding-bottom: 1rem;
   margin-top: 1.5rem;
 }
 .textSP p{
+  font-size: 2vh;
   margin-top: 0.5rem;
 }
 
@@ -273,7 +278,9 @@ padding-bottom: 1rem;
   overflow-x:scroll;
 }
 
-
+.slider-card p{
+  font-size: 3vh;
+}
 .slider{
   width:100%;
   height:100%;
