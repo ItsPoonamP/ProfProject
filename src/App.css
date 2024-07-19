@@ -1,14 +1,17 @@
 /* General styles */
+
 * {
   font-family: "Roboto Flex", sans-serif;
 }
 
 .navbar, .dropdown {
+  width: 100%;
   display: flex;
   background-color: #1F293A;
   padding: 10px;
   list-style: none;
   margin: 0;
+  z-index: 2;
 }
 
 .navbar a, .dropdown a {
@@ -33,6 +36,7 @@
 
 .dropdown.open {
   display: flex;
+
   
 }
 
@@ -49,11 +53,268 @@
 
 /* Styles for smaller screens */
 @media (max-width: 768px) {
+  .date{
+    display: flex;
+    flex-direction: column;
+  align-items: center;  
+ 
+  }
+  
   .navbar {
     display: none;
   }
+  .writeup{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+  }
+  .im{
+    display: none;
+  }
+  .im_1
+  {
+    background-color: #3A3A3A;
+  height: 8rem;
+  width: 20rem;
+  position: relative;
+  
+top: 2rem;
+border: #3A3A3A;
+border-radius: 8px;
+}
 
   .menu-toggle {
     display: block;
   }
+  .polygon{
+    display: none;
+  }
+  .polygon_1
+  {
+    width: 65%;
+    height: 17.555rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 2.5rem;
+    right: 0px;
+    clip-path: polygon(0% 0%,25% 100%,100% 100%,100% 0%);
+  z-index: 1;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+header
+{
+  width: 100%;
+  height: 20rem;
+  background-color: #3A3A3A;
+}
+.polygon
+{
+  width: 55%;
+height: 17.3rem;
+background-color: #FFFFFF;
+position: absolute;
+top: 2.75rem;
+right: 0px;
+clip-path: polygon(0% 0%,10% 100%,100% 100%,100% 0%);
+}
+.date
+{
+  background-color: #0093DD;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 1.6rem;
+  font-size: 4vh;
+  flex-wrap: wrap;  
+}
+.box
+{
+  
+  background-color: #D9D9D9;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  top: 1rem;
+  margin-left: 1rem;
+  border: #D9D9D9;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+
+ 
+}
+.info
+{
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+padding-bottom: 1rem;
+
+}
+.text
+{
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-right: 3rem;
+  
+}
+.writeup
+{
+  display: flex;
+  justify-content: center;
+}
+.im
+{
+  background-color: #3A3A3A;
+  width: 200rem;
+  height: 10rem;
+  border: #3A3A3A;
+  border-radius: 8px;
+  position: relative;
+  top: 3rem;
+
+
+}
+.sponsor
+{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.blueLine{
+  background-color: #0093DD;
+  width: 40%;
+  height: 0.1rem;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.textS
+{
+  background-color: #1F293A;
+  height: 2rem;
+  width: 8rem;
+  margin-top: 1.5rem;
+  border: #1F293A;
+  border-radius: 10px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+.textS p
+{
+  margin-top: 0.5rem;
+}
+.speaker
+{
+  display: flex;
+  justify-content: center;
+
+}
+.textSP
+{ background-color: #1F293A;
+  height: 2rem;
+  width: 8rem;
+  border: #1F293A;
+  border-radius: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.textSP p{
+  margin-top: 0.5rem;
+}
+
+.slider{
+  width:100%;
+  height:100%;
+  display: flex;
+}
+
+
+.slider-card p{
+  text-align: center;
+  margin-top: 1rem;
+}
+.imgpart{
+  display:inline-block;
+  width:8rem;
+  height:8rem;
+  color: #FFFFFF;
+  background:#3A3A3A;
+  border-radius:10px;
+  margin-left:5px;
+  margin-right:5px;
+  
+  position: relative;
+
+}
+
+.slider{
+  width:100%;
+  height:100%;
+
+}
+
+.slider{
+  width:100%;
+  height:100%;
+  white-space:nowrap;
+  overflow-x:scroll;
+}
+
+
+.slider{
+  width:100%;
+  height:100%;
+  
+  scrollbar-width:none;
+}
+.main-slider-container
+{
+  display: flex;
+  margin-top: 2rem;
+}
+.slider-icon 
+{
+  border: none;
+  background-color: inherit;
+}
+.contact
+{
+  background-color: #1F293A;
+  width: 100%;
+  height: 10rem;
+}
+.details
+{
+  background-color:inherit;
+  width: 100%;
+  height: 5rem;
+  
+}
+.foot
+{
+  background-color: #17202E;
+  width: 100%;
+  height: 5rem;
+  color: #FFFFFF;
+
+}
+.foot p{
+  margin-left: 1rem;
+  background-color: inherit;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 2vh;
 }
