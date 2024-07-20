@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import SpeakerList from './speakers/speakerList';
+<<<<<<< HEAD
+import Theme from './Themes/theme';
+=======
 import DateSec from './DateSec';
 import Image from './Image';
 import Contact from './Contact';
@@ -8,6 +11,7 @@ import './App.css';
 import Programme from './Pages/Programme';
 import Registration from './Pages/Registration';
 import Home from './Pages/Home';
+>>>>>>> 50a60715e8046feeb1ae76de3cd0c38c1653030c
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
