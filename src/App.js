@@ -10,6 +10,7 @@ import Programme from './Pages/Programme';
 import Registration from './Pages/Registration';
 import Home from './Pages/Home';
 import Theme from './Themes/theme';
+import Committee from './Pages/Committee';
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -50,6 +51,7 @@ function App() {
         <Route path="/Programme" element={<Programme />} />
         <Route path="/Registration" element={<Registration />} />
         <Route path = "/Theme" element={<Theme />}/>
+        <Route path = "/Committee" element={<Committee />}/>
       </Routes>
     </BrowserRouter>
   );
