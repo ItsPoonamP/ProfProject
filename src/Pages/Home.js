@@ -6,12 +6,29 @@ import Contact from '../Contact';
 function Home() {
   return (
     <>
-      <div className="polygon"></div>
-      <div className="polygon_1"></div>
+      <div className="polygon"><p>International Conference on Quantum
+      Materials, Devices and Systems</p></div>
+      <div className="polygon_1"><p>International Conference on Quantum
+      Materials, Devices and Systems</p></div>
       <DateSec />
       <div className="writeup">
         <div className="text">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+        The inaugural edition of the International Conference on Quantum Materials, Devices, and
+Systems (Q-MDS-2024) is a significant milestone in the advancement of quantum technologies.
+Organized into three tracks—Quantum Materials, Quantum Devices, and Quantum Systems—the
+conference provides a comprehensive exploration of the latest developments in the field. In the
+Quantum Materials track, researchers delve into novel materials with unique quantum properties,
+including topological insulators, superconductors, and quantum dots. The Quantum Devices track
+focuses on the design, fabrication, and optimization of quantum devices for practical applications,
+spanning spintronic devices, quantum photonics, emerging quantum devices, and single electron
+devices. Meanwhile, the Quantum Systems track explores the intricate realm of quantum
+phenomena and its implications for system-level applications, encompassing quantum heat
+engineering, sensors, quantum communication, and information theory. Key insights highlight
+opportunities and challenges in advancing quantum technologies, underscoring the importance of
+interdisciplinary collaboration, robust materials design, and scalable device architectures. Future
+research directions include the exploration of new quantum materials, refinement of device
+fabrication techniques, and development of quantum algorithms for real-world applications. The
+conference sets a solid foundation for further advancements in quantum science and technology
         </div>
         <div className="im"></div>
         <div className="im_1"></div>
@@ -20,6 +37,13 @@ function Home() {
         <div className="blueLine"></div>
         <div className="textS"><p>SPONSORS</p></div>
         <div className="blueLine"></div>
+      </div>
+      <div className="sponsT">
+        <img src="https://as1.ftcdn.net/v2/jpg/01/89/10/46/1000_F_189104677_lUhlb8eqFFO7CCI3iKaMmqedS8sJXKr9.jpg"  />
+        <img src="https://as1.ftcdn.net/v2/jpg/01/89/10/46/1000_F_189104677_lUhlb8eqFFO7CCI3iKaMmqedS8sJXKr9.jpg"  />
+        <img src="https://as1.ftcdn.net/v2/jpg/01/89/10/46/1000_F_189104677_lUhlb8eqFFO7CCI3iKaMmqedS8sJXKr9.jpg"  />
+        <img src="https://as1.ftcdn.net/v2/jpg/01/89/10/46/1000_F_189104677_lUhlb8eqFFO7CCI3iKaMmqedS8sJXKr9.jpg"  />
+        <img src="https://as1.ftcdn.net/v2/jpg/01/89/10/46/1000_F_189104677_lUhlb8eqFFO7CCI3iKaMmqedS8sJXKr9.jpg"  />
       </div>
       <div className="logo"></div>
       <div className="logo"></div>
